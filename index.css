@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.nav-link{
+  font-size: 21px;
+  color: #232323;
+
+  margin-left: 25px;
+}
+nav{
+  font-family: 'Spartan', sans-serif;
+}
+.new-font{
+  font-family: 'Poppins', sans-serif;
+}
+/* Container holding the image and the text */
+.c {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48px;
+
+
+}
+.bor{
+  border-bottom: 6px solid white;
+}
+.heading{
+  font-size: 72px;
+}
+.sales-inquery{
+  font-size: 21px;
+  color:#616161;
+}
+.list{
+  padding-left: 15px;
+  font-size: 21px;
+}
+
+.button{
+  color: white;
+  background-color: orange;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border:transparent;
+  width: 250px;
+  height: 50px;
+  font-size: 20px;
+  box-shadow: 10px 10px 40px #fed8b1;
+
+}
+.phone-pic{
+  width: 95%;
+  position:absolute;
+  top: 750px;
+  z-index: 100;
+}
+.orange-box{
+  background-color: #fe8a09;
+  height: 150px;
+  width: 100%;
+  position: absolute;
+  top: 1450px;
+}
+.change-footer{
+
+  /* position: absolute; */
+  /* top: 1550px; */
+  background-color: #232323 ;
+  margin-top: 590px;
+  font-size: 14px;
+
+}
+.list-unstyled a{
+  color:#ffffff;
+}
+.space{
+  padding-left: 20px;
+}
+.sp{
+  padding-left: 29px;
+}
+.dot {
+  height: 700px;
+  width: 700px;
+  background-color: #fe8a09;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  opacity: 0.1;
+  top: 880px;
+  left: -100px;
+  z-index: -10;
+}
+.small-dot1{
+
+  height: 55px;
+  width: 55px;
+  /* background-color: #fe8a09; */
+  border-radius: 50%;
+  display: inline-block;
+  border:2px solid #fe8a09;
+  margin-left: -49px;
+  position: absolute;
+  top: 178px;
+}
+.small-dot2{
+
+  height: 55px;
+  width: 55px;
+  /* background-color: #fe8a09; */
+  border-radius: 50%;
+  display: inline-block;
+  border:2px solid #fe8a09;
+  margin-left: -48px;
+  position: absolute;
+  top: 257px;
+}
+.small-dot3{
+
+  height: 55px;
+  width: 55px;
+  /* background-color: #fe8a09; */
+  border-radius: 50%;
+  display: inline-block;
+  border:2px solid #fe8a09;
+  margin-left: -43px;
+  position: absolute;
+  top: 340px;
+}
+.input-form{
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid #616161;
+  width: 100%;
+}
+form{
+  color: #616161;
+}
